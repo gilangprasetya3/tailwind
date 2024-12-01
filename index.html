@@ -3,136 +3,185 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>FYP Media</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <header class="bg-slate-200 top-0 sticky">
-      <nav
-        class="text-slate-900 container mx-auto py-4 flex justify-between items-center"
-      >
-        <a href="" class="text-3xl font-bold">Tailwind</a>
-        <ul class="flex">
-          <li class="px-7 py-1 hover:text-gray-500"><a href="">Home</a></li>
-          <li class="px-7 py-1 hover:text-gray-500"><a href="">About</a></li>
-          <li
-            class="px-7 py-1 hover:text-gray-500 border-2 border-slate-900 rounded-lg"
+  <body class="bg-gray-50">
+
+    <header class="bg-white shadow">
+      <div class="container mx-auto flex justify-between items-center py-4 px-5">
+        <div class="flex items-center">
+          <img
+            src="C:\xampp\htdocs\Latihan-TailwindCSS-FYP-MEDIA-\img\logo.png"
+            alt="Logo"
+            class="h-10 w-10 mr-3"
+          />
+          <span class="text-2xl font-bold text-gray-800">E-learning</span>
+        </div>
+        <nav class="hidden md:flex space-x-6">
+          <a href="#" class="hover:text-blue-600">About us</a>
+          <a href="#" class="hover:text-blue-600">How it works</a>
+          <a href="#" class="hover:text-blue-600">Pricing</a>
+        </nav>
+        <div class="hidden md:flex space-x-4">
+          <button class="py-2 px-4 text-blue-600 font-semibold border border-blue-600 rounded-lg">
+            Sign up
+          </button>
+          <button class="py-2 px-4 bg-blue-600 text-white rounded-lg hover:bg-blue-500">
+            Get it Now
+          </button>
+        </div>
+        <button class="md:hidden p-2 text-blue-600">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            class="w-6 h-6"
           >
-            <a href="">Service</a>
-          </li>
-        </ul>
-      </nav>
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4 6h16M4 12h16m-7 6h7"
+            />
+          </svg>
+        </button>
+      </div>
     </header>
 
-    <!-- hero section -->
-    <section class="bg-gradient-to-r from-teal-500 to-blue-500">
-      <div
-        class="container mx-auto text-center text-slate-900 h-screen flex items-center"
-      >
-        <div class="mx-auto w-2/4">
-          <h3 class="text-5xl font-bold text-center mb-5">
-            Lorem ipsum dolor sit amet.
-          </h3>
-          <p class="text-white mb-5">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora
-            inventore libero repellat eius, reiciendis nobis dignissimos, quis
-            atque expedita repellendus necessitatibus at delectus, sequi
-            exercitationem!
-          </p>
-          <a
-            href=""
-            class="bg-slate-900 text-white py-2 px-5 rounded-xl hover:bg-slate-500"
-            >See More</a
-          >
-        </div>
-      </div>
-    </section>
-
-    <!-- about -->
-    <section class="bg-gray-200 py-20">
-      <div class="container mx-auto">
-        <h3 class="text-5xl font-bold text-center mb-5">Lorem, ipsum dolor.</h3>
-        <p class="text-gray-500 text-center mb-8">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni,
-          laborum?
-        </p>
-        <div class="grid grid-cols-2 gap-8">
-          <div class="flex space-x-5 bg-white py-8 px-8 rounded-xl items-start">
-            <img src="https://placehold.co/100" alt="" />
-            <div>
-              <h4 class="text-2xl font-bold mb-5">Lorem, ipsum.</h4>
-              <p class="text-gray-500 mb-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-                facilis officia animi expedita asperiores dolorem iste
-                consequuntur libero sit, deleniti facere quidem aliquam quas ea?
-              </p>
-              <a href="" class="hover:text-gray-500">See More</a>
-            </div>
-          </div>
-
-          <div class="flex space-x-5 bg-white py-8 px-8 rounded-xl items-start">
-            <img src="https://placehold.co/100" alt="" />
-            <div>
-              <h4 class="text-2xl font-bold mb-5">Lorem, ipsum.</h4>
-              <p class="text-gray-500 mb-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-                facilis officia animi expedita asperiores dolorem iste
-                consequuntur libero sit, deleniti facere quidem aliquam quas ea?
-              </p>
-              <a href="" class="hover:text-gray-500">See More</a>
-            </div>
-          </div>
-
-          <div class="flex space-x-5 bg-white py-8 px-8 rounded-xl items-start">
-            <img src="https://placehold.co/100" alt="" />
-            <div>
-              <h4 class="text-2xl font-bold mb-5">Lorem, ipsum.</h4>
-              <p class="text-gray-500 mb-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-                facilis officia animi expedita asperiores dolorem iste
-                consequuntur libero sit, deleniti facere quidem aliquam quas ea?
-              </p>
-              <a href="" class="hover:text-gray-500">See More</a>
-            </div>
-          </div>
-
-          <div class="flex space-x-5 bg-white py-8 px-8 rounded-xl items-start">
-            <img src="https://placehold.co/100" alt="" />
-            <div>
-              <h4 class="text-2xl font-bold mb-5">Lorem, ipsum.</h4>
-              <p class="text-gray-500 mb-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-                facilis officia animi expedita asperiores dolorem iste
-                consequuntur libero sit, deleniti facere quidem aliquam quas ea?
-              </p>
-              <a href="" class="hover:text-gray-500">See More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- service -->
-    <section class="container mx-auto py-20">
-      <div class="flex space-x-10 items-start">
-        <img src="https://placehold.co/300" alt="" />
+    <section class="bg-gray-100 py-20">
+      <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-5">
         <div>
-          <p class="mb-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
-            eveniet!
+          <h1 class="text-3xl md:text-5xl font-bold text-gray-800 mb-5">
+            Boost your learning success with <span class="text-blue-600">E-learning</span>
+          </h1>
+          <p class="text-gray-600 mb-6">
+            Learn and grow with our platform to achieve your personal and professional goals.
           </p>
-          <h3 class="text-5xl font-bold mb-5">Lorem ipsum dolor sit amet.</h3>
-          <p class="mb-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-            nobis, omnis, harum culpa tempore facere inventore sit minus fugit
-            magni eos similique. Tempore, molestiae ipsam!
-          </p>
-          <p class="mb-5 border-b-2 border-gray-900 pb-5">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos
-            tempora earum a incidunt sequi consequuntur porro omnis explicabo
-            officia, fugiat asperiores expedita tenetur alias dolorum.
+          <button class="py-3 px-6 bg-blue-600 text-white rounded-lg hover:bg-blue-500">
+            Get it Now
+          </button>
+        </div>
+        <div class="text-center mt-10 md:mt-0">
+          <img
+            src="C:\xampp\htdocs\Latihan-TailwindCSS-FYP-MEDIA-\img\logo.png"
+            alt="Hero Illustration"
+            class="mx-auto"
+          />
+        </div>
+      </div>
+    </section>
+
+<section class="py-20">
+  <div class="container mx-auto overflow-hidden relative">
+
+    <div
+      id="slideshow"
+      class="flex transition-transform duration-700 ease-in-out"
+    >
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-center w-full flex-none">
+        <div class="bg-white shadow-lg rounded-lg p-6">
+          <img
+            src="C:\xampp\htdocs\Latihan-TailwindCSS-FYP-MEDIA-\img\online-course.png"
+            alt="Interactive Lessons"
+            class="mx-auto mb-4 w-20 h-20"
+          />
+          <h3 class="text-xl font-bold text-gray-800 mb-2">Interactive Lessons</h3>
+          <p class="text-gray-600">
+            Learn through engaging and interactive courses that cater to your needs.
           </p>
         </div>
+        <div class="bg-white shadow-lg rounded-lg p-6">
+          <img
+            src="C:\xampp\htdocs\Latihan-TailwindCSS-FYP-MEDIA-\img\teachers-day.png"
+            alt="Expert Instructors"
+            class="mx-auto mb-4 w-20 h-20"
+          />
+          <h3 class="text-xl font-bold text-gray-800 mb-2">Expert Instructors</h3>
+          <p class="text-gray-600">
+            Our courses are designed by industry experts to provide the best experience.
+          </p>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg p-6">
+          <img
+          src="C:\xampp\htdocs\Latihan-TailwindCSS-FYP-MEDIA-\img\multitasking.png"
+            alt="Real-World Skills"
+            class="mx-auto mb-4 w-20 h-20"
+          />
+          <h3 class="text-xl font-bold text-gray-800 mb-2">Real-World Skills</h3>
+          <p class="text-gray-600">
+            Gain practical knowledge applicable to real-life challenges.
+          </p>
+        </div>
+      </div>
+     
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-center w-full flex-none">
+        <div class="bg-white shadow-lg rounded-lg p-6">
+          <img
+            src="C:\xampp\htdocs\Latihan-TailwindCSS-FYP-MEDIA-\img\live-chat.png"
+            alt="Personalized Support"
+            class="mx-auto mb-4 w-20 h-20"
+          />
+          <h3 class="text-xl font-bold text-gray-800 mb-2">Personalized Support</h3>
+          <p class="text-gray-600">
+            Get tailored guidance to help you achieve your goals effectively.
+          </p>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg p-6">
+          <img
+            src="C:\xampp\htdocs\Latihan-TailwindCSS-FYP-MEDIA-\img\book.png"
+            alt="Comprehensive Materials"
+            class="mx-auto mb-4 w-20 h-20"
+          />
+          <h3 class="text-xl font-bold text-gray-800 mb-2">Comprehensive Materials</h3>
+          <p class="text-gray-600">
+            Access in-depth resources to enhance your learning experience.
+          </p>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg p-6">
+          <img
+          src="C:\xampp\htdocs\Latihan-TailwindCSS-FYP-MEDIA-\img\calendar.png"
+          alt="Flexible Learning"
+            class="mx-auto mb-4 w-20 h-20"
+          />
+          <h3 class="text-xl font-bold text-gray-800 mb-2">Flexible Learning</h3>
+          <p class="text-gray-600">
+            Study at your own pace with flexible schedules and personalized plans.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  const slideshow = document.getElementById("slideshow");
+  let index = 0;
+
+  function showNextSlide() {
+    const totalSlides = slideshow.children.length;
+
+    index = (index + 1) % totalSlides;
+
+    slideshow.style.transform = `translateX(-${index * 100}%)`;
+  }
+
+  setInterval(showNextSlide, 3000);
+</script>
+  
+    <section class="bg-blue-600 text-white py-20">
+      <div class="container mx-auto text-center px-5">
+        <h2 class="text-3xl md:text-4xl font-bold mb-5">
+          We provide an innovative e-learning platform
+        </h2>
+        <p class="text-gray-200 mb-8">
+          Empower your learning journey with tailored courses to achieve your goals effectively.
+        </p>
+        <button class="py-3 px-6 bg-white text-blue-600 font-bold rounded-lg hover:bg-gray-100">
+          Learn more
+        </button>
       </div>
     </section>
   </body>
